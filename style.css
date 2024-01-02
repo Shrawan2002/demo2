@@ -1,0 +1,36 @@
+div{
+    background-color:aqua;
+    height: 100px;
+    width: 100px;
+    border: 2PX solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+}
+
+#box2{
+    position:relative;
+    top: 25px;
+}
+
+/* #box3{
+    position: absolute;
+    left: 400px;
+} */
+
+#box4{
+    position: fixed;
+    top:0px;
+    left: 300px;
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+
+/* #box3{
+    position: sticky;
+    top: 500px;
+    left: 300px;
+    top:
+} */
